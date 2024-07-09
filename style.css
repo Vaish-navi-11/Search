@@ -1,0 +1,36 @@
+.search{
+    background-color: darkgrey;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 300px auto ;
+}
+.search input{
+    font-size: 15px;
+    height: 30px;
+    margin: 10px 0px 10px 20px;
+    padding: 5px 0px;
+    width: 400px;
+    border-radius: 5px;
+}
+button{
+    background-color:gray;
+    border: none;
+    padding: 9px 10px 10px;
+    margin-left:0 ;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.search img {
+    width: 20px;
+    height: 20px;
+    /* background-color: gray; */
+    
+}
+button:hover{
+    background-color: rgb(196, 203, 0);
+    color: white;
+    cursor: pointer;
+}
